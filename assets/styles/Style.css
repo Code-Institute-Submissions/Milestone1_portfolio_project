@@ -1,0 +1,143 @@
+body {
+    background-color: #606068;
+}
+
+.body-margin-css {
+    margin: 0px 0px 0px 0px;
+}
+
+
+/* error fixing CSS*/
+
+.row {
+    margin-right: 0px !important;
+}
+
+
+/* Add a black background color to the top navigation */
+
+.topnav {
+    background-color: rgba(19, 18, 18, 0.801);
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 100%;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+    color: grey;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.topnavrow {
+    padding-bottom: 10px;
+}
+
+.topnav-right {
+    float: right;
+}
+
+
+/**/
+
+.main-logo {
+    margin-top: -120px;
+}
+
+
+/*progress bar styling*/
+
+
+/*Start of Chrome & Safari*/
+
+progress::-webkit-progress-bar {
+    background-color: rgb(194, 32, 32);
+}
+
+progress::-webkit-progress-value {
+    background: linear-gradient(to right, green 40%, lime 60%);
+}
+
+
+/*END OF Chrome& safari*/
+
+
+/*Start of FireFox*/
+
+progress {
+    background-color: rgb(194, 32, 32);
+}
+
+progress::-moz-progress-bar {
+    background: linear-gradient(to right, green 40%, lime 60%);
+}
+
+
+/*END of FireFox*/
+
+progress {
+    -webkit-appearance: none;
+    width: 75%;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    &::-webkit-progress-bar {}
+}
+
+
+/*footer css and other footer related stuff*/
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(19, 18, 18, 0.801);
+    color: white;
+    text-align: center;
+    font-size: 22spx;
+}
+
+.row-css {
+    background-color: rgba(255, 255, 255, 0.761);
+    font-size: 22px;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.cImg {
+    position: relative;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
