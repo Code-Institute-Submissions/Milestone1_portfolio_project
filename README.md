@@ -17,7 +17,7 @@ Plain and simple. as its only HTML and CSS there will not be anything too crazy.
 
 ## Deployment
 
-Github pages deplayment. Link: 
+Github pages deplayment. Link: https://tstauras83.github.io/Milestone1_portfolio_project/index
 
 ## Credits
 
